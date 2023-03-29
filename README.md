@@ -17,9 +17,10 @@
 `xxx = xxx_cascade.detectMultiscale(gray, 1.1, 5, minSize = (50, 50))`
 
 5.标注识别框  
-`for (x, y, w, h) in xxxs:
+```for (x, y, w, h) in xxxs:
     cv2.rectangle(img, (x, y), (x+w, y+h ), (255, 255, 255), 2)
-    注释识别框cv2.putText()`
+    注释识别框cv2.putText()
+```
 
 6.显示图像结果  
 #cv2.imshow('result', img)
