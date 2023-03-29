@@ -24,11 +24,13 @@ for (x, y, w, h) in xxxs:
 ```
 
 6.显示图像结果  
-#cv2.imshow('result', img)
+`cv2.imshow('result', img)`
 
 (6.1).保存图像结果  
-#cv2.imwrite('output.jpg', img)
+`cv2.imwrite('output.jpg', img)`
 
 7.释放窗口及资源  
+```
 cv2.waitKey(0)  
 cv2.destoryAllWindows()
+```
