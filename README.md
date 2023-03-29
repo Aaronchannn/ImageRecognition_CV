@@ -2,10 +2,10 @@
 ## Image recognition implemented through OpenCV library using a cascaded classifier model based on Haar features
 ## 基于Haar特征的级联分类器模型通过opencv库实现图像识别
 
-### 法实现主要框架：
+### 算法实现主要框架：
 
 1.加载官OpenCV官方提供的相应的基于Haar特征的级联分类器模型  
-#xxx_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_xxx.xml')
+'<xxx_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_xxx.xml')>'
 
 2.加载原图像  
 #img|video = cv2.imread('文件绝对路径')
